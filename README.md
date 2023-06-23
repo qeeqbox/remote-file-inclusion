@@ -4,7 +4,7 @@ A threat actor may trick a vulnerable target to include/retrieve remote file
 
 ## Example #1
 1. A threat actor uploads a PHP web shell to a temporary file service
-2. A threat actor sends a file URL to a vulnerable target
+2. A threat actor sends a malicious request that includes the remote file name to a vulnerable target
 3. The vulnerable target executes malicious files as PHP
 
 ## Code
