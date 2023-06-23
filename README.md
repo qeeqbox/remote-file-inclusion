@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/remote-file-inclusion/main/remote-file-inclusion.png"></p>
 
-A threat actor may trick a vulnerable target to include/retrieve remote file
+A threat actor may cause a vulnerable target to include/retrieve remote file
 
 ## Example #1
 1. A threat actor uploads a PHP web shell to a temporary file service
