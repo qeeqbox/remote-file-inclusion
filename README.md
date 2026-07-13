@@ -37,7 +37,7 @@ def do_POST(self):
     ...
     ...
 ```
-The external module link gets retrieved and executed without verification
+The run_external_module() function gets retrieved and executed without verification
 ```py
 def run_external_module(self,link=None):
     ret = b""
