@@ -29,7 +29,7 @@ To prevent RFI:
 - Use a Web Application Firewall (WAF): A WAF can help detect and block malicious requests aimed at exploiting file inclusion vulnerabilities.
 - Perform Regular Security Testing: Conduct routine security assessments to identify insecure file inclusion before attackers can exploit it.
 
-## Example
+## RFI Example
 Clone this current repo recursively
 ```sh
 git clone --recurse-submodules https://github.com/qeeqbox/remote-file-inclusion
