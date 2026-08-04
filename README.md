@@ -11,7 +11,7 @@ RFI is most commonly associated with PHP applications configured to allow remote
 3. Exploit the Vulnerability: The attacker sends the malicious URL to the vulnerable parameter, causing the web application to include and execute the external file.
 
 ## Impact of RFI
-Successful RFI attacks can lead to:
+Successful RFI can lead to:
 - Remote Code Execution (RCE): Attackers may execute arbitrary code on the web server.
 - Server Compromise: Attackers gain full control of the vulnerable server.
 - Data Theft: Sensitive information, including databases, configuration files, and credentials, may be accessed or stolen.
