@@ -11,7 +11,7 @@ RFI is most commonly associated with PHP applications configured to allow remote
 3. Exploit the Vulnerability: The attacker sends the malicious URL to the vulnerable parameter, causing the web application to include and execute the external file.
 
 ## Impact of RFI
-Successful RFI can lead to:
+Successful RFI exploitation can enable an attacker to:
 - Remote Code Execution (RCE): Attackers may execute arbitrary code on the web server.
 - Server Compromise: Attackers gain full control of the vulnerable server.
 - Data Theft: Sensitive information, including databases, configuration files, and credentials, may be accessed or stolen.
@@ -20,7 +20,7 @@ Successful RFI can lead to:
 - Reputation and Financial Damage: Organizations may face service disruption, financial losses, regulatory penalties, and loss of customer trust.
 
 ## RFI Mitigation Strategies
-To prevent RFI:
+To prevent RFI vulnerabilities:
 - Never Trust User Input for File Inclusion: Do not allow users to directly specify file names or paths. Use predefined mappings or allowlists instead.
 - Disable Remote File Inclusion: The remote file inclusion feature should be disabled unless it is absolutely necessary.
 - Validate User Input: If user input must be accepted, ensure it is validated against a predefined list of acceptable values. Avoid allowing arbitrary file names or URLs.
