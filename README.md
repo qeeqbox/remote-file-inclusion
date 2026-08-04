@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/remote-file-inclusion/main/content/remote-file-inclusion.svg"></p>
 
-## Remote File Inclusion (RFI)
+## What is Remote File Inclusion (RFI)
 Remote File Inclusion (RFI) is a web application vulnerability that occurs when an application includes and executes a file from a remote server based on untrusted user input. If an attacker can control the file path or URL used by a file inclusion function, the application may download and execute malicious code, potentially leading to Remote Code Execution (RCE) and complete server compromise.
 
 RFI is most commonly associated with PHP applications configured to allow remote file inclusion through settings such as `allow_url_include`.
